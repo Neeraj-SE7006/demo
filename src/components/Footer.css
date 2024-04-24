@@ -1,0 +1,35 @@
+.footer-list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-style: normal;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 25px;
+}
+.footer-list li {
+  list-style: none;
+  color: black;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-list {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-style: normal;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 130;
+    font-size: 12px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+  }
+  .footer-list li {
+    list-style: none;
+    color: black;
+    cursor: pointer;
+  }
+}

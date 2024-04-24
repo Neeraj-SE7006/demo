@@ -1,0 +1,147 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 7px;
+    width: 400px;
+    margin-top: 130px;
+    margin-left: 300px;
+    background-color: white;
+  }
+  
+ 
+  
+  .search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    height: 5vh;
+    width: 400px;
+    border: none;
+    outline: none;
+  }
+  
+  .search-input::placeholder {
+    color: #888;
+  }
+  
+  .search-input:focus {
+    /* Example focus styles */
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+  }
+  
+
+  @media (min-width: 280px) and (max-width: 350px) {
+    .search-bar {
+        display: flex;
+        align-items: center;
+        border: 1px solid #ccc;
+        border-radius: 25px;
+        padding: 2px;
+        width: 260px;
+        margin-top: 10px;
+        margin-left: 14px;
+        background-color: white;
+      }
+      
+     
+      
+      .search-input {
+        flex: 1;
+        border: none;
+        outline: none;
+        height: 5vh;
+        width: 240px;
+        border: none;
+        outline: none;
+      }
+      
+
+  }
+
+  @media (min-width: 350px) and (max-width: 500px) {
+    .search-bar {
+        display: flex;
+        align-items: center;
+        border: 1px solid #ccc;
+        border-radius: 25px;
+        padding: 2px;
+        width: 280px;
+        margin-top: 10px;
+        margin-left: 25px;
+        background-color: white;
+      }
+      
+     
+      
+      .search-input {
+        flex: 1;
+        border: none;
+        outline: none;
+        height: 5vh;
+        width: 280px;
+        border: none;
+        outline: none;
+      }
+      
+
+  }
+
+  @media (min-width: 500px) and (max-width: 650px) {
+    .search-bar {
+        display: flex;
+        align-items: center;
+        border: 1px solid #ccc;
+        border-radius: 25px;
+        padding: 2px;
+        width: 400px;
+        margin-top: 10px;
+        margin-left: 35px;
+        background-color: white;
+      }
+      
+     
+      
+      .search-input {
+        flex: 1;
+        border: none;
+        outline: none;
+        height: 5vh;
+        width: 390px;
+        border: none;
+        outline: none;
+      }
+      
+
+  }
+
+
+  @media (min-width: 650px) and (max-width: 800px) {
+    .search-bar {
+        display: flex;
+        align-items: center;
+        border: 1px solid #ccc;
+        border-radius: 25px;
+        padding: 2px;
+        width: 500px;
+        margin-top: 10px;
+        margin-left: 35px;
+        background-color: white;
+      }
+      
+     
+      
+      .search-input {
+        flex: 1;
+        border: none;
+        outline: none;
+        height: 5vh;
+        width: 490px;
+        border: none;
+        outline: none;
+      }
+      
+
+  }
